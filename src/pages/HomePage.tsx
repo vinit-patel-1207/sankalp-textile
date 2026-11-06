@@ -101,7 +101,7 @@ export function HomePage() {
                 </svg>
               </div>
               <div className="statValue">
-                <CountUp end={500000} suffix="+" duration={2000} />
+                <CountUp end={600000} suffix="+" duration={2000} />
               </div>
               <div className="statLabel">Monthly meters production</div>
             </Reveal>
