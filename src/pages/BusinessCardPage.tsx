@@ -40,9 +40,9 @@ We prioritize a repeatable workflow: confirm specs, manufacture with staged chec
 Every meter we manufacture reflects our responsibility toward healthcare, where consistency, trust, and uncompromising standards guide everything we do.`;
 
 const SLIDER_IMAGES = [
-  "/images/home.jpg",
-  "/images/fabric-rolls.jpg",
   "/images/inspection.jpg",
+  "/images/home.jpg",
+  "/images/fabric-rolls.jpg"
 ];
 
 /* ───────────────────────────── ICONS ───────────────────────────── */
@@ -252,8 +252,8 @@ export function BusinessCardPage() {
               <img src={COMPANY.logo} alt={`${COMPANY.name} logo`} />
             </span>
             <h1>{COMPANY.name.toUpperCase()}</h1>
-            <p className="bcTagline">{COMPANY.tagline}</p>
             <p className="bcSubtitle">{COMPANY.subtitle}</p>
+            <p className="bcTagline">{COMPANY.tagline}</p>
             <span className="bcDash" />
             <h2>{COMPANY.person}</h2>
             <p>{COMPANY.designation}</p>
